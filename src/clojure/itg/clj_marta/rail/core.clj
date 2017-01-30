@@ -3,7 +3,7 @@
             [clj-http.client :as client]
             [clojure.string :as string]
             [itg.clj-marta.common.api :as api]
-            [iteg.clj-marta.common.uril :refer :all]
+            [itg.clj-marta.common.util :refer :all]
             [camel-snake-kebab.core :refer :all]))
 
 (defn get-rail-schedule []

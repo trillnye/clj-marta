@@ -1,4 +1,4 @@
-# Project Name
+# clj-marta
 
 clj-marta is a very thin wrapper around the [MARTA APIs](http://www.itsmarta.com/app-developer-resources.aspx).
 
@@ -12,6 +12,7 @@ clj-marta is a very thin wrapper around the [MARTA APIs](http://www.itsmarta.com
  - [x] Find bus stop by route
  - [ ] Find routes by stop
  - [ ] Add projected arrival/departure time based on historical trends
+ - [ ] Create `with-credentials` wrapper for non-env credential flexibility
 
 ## Project Maturity
 
@@ -20,7 +21,7 @@ clj-marta is *very* young.
 
 ## Artifacts
 
-... artifacts are [released to Clojars](https://clojars.org/itg/clj-marta). If you are using Maven, add the following repository
+clj-marta artifacts are [released to Clojars](https://clojars.org/itg/clj-marta). If you are using Maven, add the following repository
 definition to your `pom.xml`:
 
 ``` xml
@@ -34,21 +35,42 @@ definition to your `pom.xml`:
 
 With Leiningen:
 
-    [itg/clj-marta "1.0.0-alpha1"]
-
+    [itg/clj-marta "1.0.0-SNAPSHOT"]
 
 With Maven:
 
     <dependency>
       <groupId>itg</groupId>
       <artifactId>clj-marta</artifactId>
-      <version>1.0.0-alpha1</version>
+      <version>1.0.0-SNAPSHOT</version>
     </dependency>
-
 
 ## Documentation & Examples
 
-Our documentation site is not yet live, sorry.
+``` clojure
+(ns some-project.core
+    (:require [itg.clj-marta.rail.core :as rail]
+              [itg.clj-marta.bus.core :as bus]))
+
+;; Details for lines, stations, timepoints, routes and stops are available
+;; in the respective rail and bus globals
+
+;; Get a snapshot of the current rail system schedule
+(rail/get-rail-schedule)
+
+;; Get the schedule for a specific station
+(rail/get-rail-schedule-by-station "LINDBERGH STATION")
+
+;; Get the schedule for a specific line
+(rail/get-rail-schedule-by-line "RED")
+
+
+;; Get stops by a specific timepoint
+(bus/get-stops-by-timepoint "Glenwood & Moreland")
+
+;; Get stop by route number
+(bus/get-stop-by-route "189")
+```
 
 
 ## Supported Clojure versions

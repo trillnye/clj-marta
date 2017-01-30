@@ -27,5 +27,5 @@
 (defn get-stop-by-route [route]
   (filter #(= (:route %) route) bus-details))
 
-(defn get-stops-by-timepoints [timepoint]
+(defn get-stops-by-timepoint [timepoint]
   (filter #(= (:timepoint %) timepoint) bus-details))
