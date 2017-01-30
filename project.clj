@@ -1,5 +1,10 @@
 (defproject itg/clj-marta "1.0.0-SNAPSHOT"
   :description "Basic API clojure client for MARTA rail and bus schedules"
+  :url "https://github.com/csmith-cb/clj-marta"
+  :license {:name "MIT"
+            :url "https://opensource.org/licenses/MIT"
+            :distribution :repo
+            :comments "MIT license"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clojurewerkz/support "1.1.0"]
                  [camel-snake-kebab "0.4.0"]
