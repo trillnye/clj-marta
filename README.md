@@ -58,7 +58,7 @@ clj-marta is built from the ground up for Clojure 1.8.0 and up.
 
 ## Continuous Integration Status
 
-[![Continuous Integration status](https://secure.travis-ci.org/itg/clj-marta.png)](http://travis-ci.org/itg/clj-marta)
+[![Continuous Integration status](https://secure.travis-ci.org/csmith-cb/clj-marta.png)](http://travis-ci.org/csmith-cb/clj-marta)
 
 ## Development
 
