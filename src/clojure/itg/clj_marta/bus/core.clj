@@ -21,3 +21,11 @@
 (def bus-routes (distinct (map #(:route %) bus-details)))
 
 (def bus-stops (distinct (map #(:stopid %) bus-details)))
+
+(defn get-routes-by-stop [stop])
+
+(defn get-stop-by-route [route]
+  (filter #(= (:route %) route) bus-details))
+
+(defn get-stops-by-timepoints [timepoint]
+  (filter #(= (:timepoint %) timepoint) bus-details))

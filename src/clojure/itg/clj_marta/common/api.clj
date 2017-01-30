@@ -1,9 +1,10 @@
 (ns itg.clj-marta.common.api
-  (:require [clojure.string :as string]))
+  (:require [clojure.string :as string]
+            [itg.clj-marta.common.config :as config]))
 
 
-(def marta-api-key "KEY_GOES_HERE")
-(def marta-api-base-uri "http://developer.itsmarta.com")
+(def marta-api-key (:marta-api-key config/config))
+(def marta-api-base-uri (:marta-api-uri config/config))
 (def marta-api-key-suffix (string/replace "?apiKey=%s" #"%s" marta-api-key))
 (def marta-api-get-rail-schedule (str "/RealtimeTrain/RestServiceNextTrain/GetRealtimeArrivals" marta-api-key-suffix))
 (def marta-api-get-bus-list-all (str "/BRDRestService/RestBusRealTimeService/GetAllBus" marta-api-key-suffix))
