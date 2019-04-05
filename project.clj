@@ -10,7 +10,8 @@
                  [camel-snake-kebab "0.4.0"]
                  [clj-http "2.3.0"]
                  [cheshire "5.7.0"]
-                 [environ "1.1.0"]]
+                 [environ "1.1.0"]
+                 [org.clojure/data.csv "0.1.4"]]
   :profiles {:1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
              :master {:dependencies [[org.clojure/clojure "1.9.0-master-SNAPSHOT"]]}}
   :aliases {"all" ["with-profile" "dev:dev,1.8:dev,master"]}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClojureCompilerSettings">
+    <option name="NS_TO_COMPILE" value="1" />
+    <option name="NAMESPACES">
+      <list>
+        <option value="itg.clj-marta.bus.core" />
+        <option value="itg.clj-marta.common.api" />
+        <option value="itg.clj-marta.common.config" />
+        <option value="itg.clj-marta.common.util" />
+        <option value="itg.clj-marta.core" />
+        <option value="itg.clj-marta.core-test" />
+        <option value="itg.clj-marta.rail.core" />
+        <option value="itg.clj-marta.rail.core-test" />
+      </list>
+    </option>
+    <option name="CLOJURE_BEFORE" value="true" />
+  </component>
+</project>
