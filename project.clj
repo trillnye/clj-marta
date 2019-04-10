@@ -12,7 +12,8 @@
                  [cheshire "5.8.1"]
                  [environ "1.1.0"]
                  [clj-time "0.15.0"]
-                 [org.clojure/data.csv "0.1.4"]]
+                 [org.clojure/data.csv "0.1.4"]
+                 [incanter "1.9.3"]]
   :profiles {:1.10 {:dependencies [[org.clojure/clojure "1.10.0"]]}
              :master {:dependencies [[org.clojure/clojure "1.10.0"]]}}
   :aliases {"all" ["with-profile" "dev:dev,1.10:dev,master"]}
