@@ -4,4 +4,3 @@ script: lein all test
 jdk:
   - openjdk8
   - oraclejdk8
-  - oraclejdk8
