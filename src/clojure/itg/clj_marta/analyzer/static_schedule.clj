@@ -1,6 +1,5 @@
 (ns itg.clj-marta.analyzer.static-schedule
-  (:require [cheshire.core :refer :all]
-            [clojure.string :as string]
+  (:require [clojure.string :as string]
             [itg.clj-marta.common.util :refer :all]
             [camel-snake-kebab.core :refer :all]
             [clojure.data.csv :as csv]

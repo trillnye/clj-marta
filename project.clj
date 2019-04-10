@@ -6,6 +6,7 @@
             :distribution :repo
             :comments "MIT license"}
   :dependencies [[org.clojure/clojure "1.10.0"]
+                 [org.clojure/clojure "1.10.0"]
                  [clojurewerkz/support "1.1.0"]
                  [camel-snake-kebab "0.4.0"]
                  [clj-http "3.9.1"]
