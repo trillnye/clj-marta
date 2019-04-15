@@ -44,6 +44,13 @@ part of their individual insights, but these insights are often wildly inaccurat
  MARTA's API does *not* adjust API results for daily incidents. Any delays, closures, or even routine maintenace
  schedule adjustments are announced via the official MARTA twitter.  
  
+ Examples:
+ 
+ ![alt text](https://i.imgur.com/xD57K9S.jpg "No data")
+ 
+ ![alt text](https://i.imgur.com/9KLhrgn.png "Twitter")
+ 
+ 
  ### The Goal
  
  With these problems in mind, my goal for this project is to consolidate and codify my own habits and workflows as a daily MARTA user 
