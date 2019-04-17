@@ -50,6 +50,7 @@ part of their individual insights, but these insights are often wildly inaccurat
  
  ![alt text](https://i.imgur.com/9KLhrgn.png "Twitter")
  
+ ![alt text](https://i.imgur.com/3yWBJ1v.jpg "Ghost train")
  
  ### The Goal
  
