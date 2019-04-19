@@ -52,6 +52,8 @@ part of their individual insights, but these insights are often wildly inaccurat
  
  ![alt text](https://i.imgur.com/3yWBJ1v.jpg "Ghost train")
  
+ ![alt text](https://i.imgur.com/9IgWE7G.jpg "Incongruent data")
+ 
  ### The Goal
  
  With these problems in mind, my goal for this project is to consolidate and codify my own habits and workflows as a daily MARTA user 
