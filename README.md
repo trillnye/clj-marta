@@ -1,3 +1,5 @@
+# ⚠️ This library is deprecated and is superseded by the SMARTA project [here](https://github.com/csmith-cb/smarta-api)
+
 # clj-marta
 
 clj-marta is a very thin wrapper around the [MARTA APIs](http://www.itsmarta.com/app-developer-resources.aspx).
